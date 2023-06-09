@@ -1,0 +1,121 @@
+.intro-container{
+    display: flex;
+    height: 100vh;
+}
+
+.intro-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+
+.intro-image{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.intro-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.intro-info-container{
+    width: 50%;
+    height: 100%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-title{
+    font-size: 7rem;
+    font-weight: 600;
+}
+.bit-info{
+    padding-left: 0.6rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.intro-about-me{
+    padding-left: 0.6rem;
+    width: 61%;
+
+}
+
+.contact-icons{
+    margin-top: 8px;
+    padding-left: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.linkedin-icon{
+    width:30px; 
+    height:30px;
+    transition: all 0.3s;
+}
+
+.linkedin-icon:hover{
+    fill:#0077b5;
+    cursor:pointer;
+}
+
+.github-icon{
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s;
+}
+
+.github-icon:hover{
+    fill: #333;
+    cursor:pointer;
+}
+
+.redirect-links{
+    display: flex;
+        
+}
+
+.redirect-links div{
+    width: 6rem;
+    height: 6rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.redirect-links div:hover{
+    background-color: #f3f3f3;
+    cursor: pointer;
+
+}
+
+.about-me-redirect{
+    background-color: #eea302;
+}
+
+.projects-redirect{
+    background-color: #ff3b25;
+}
+
+.contact-redirect{
+    background-color: #80d8da;
+}
+
+.horizontal-line{
+    height: 1.5px;
+    width: 95vw;
+    margin: 1rem auto;
+    background-color: rgb(199,199,199);
+}
