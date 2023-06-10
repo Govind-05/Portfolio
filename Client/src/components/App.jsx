@@ -1,4 +1,7 @@
 import About from "./About";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import Projects from "./Projects";
 import Welcome from "./Welcome";
 
 export default function App() {
@@ -7,6 +10,9 @@ export default function App() {
     <>
       <Welcome />
       <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   )
 }

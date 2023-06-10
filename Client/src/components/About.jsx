@@ -3,7 +3,7 @@ import "../assets/styles/about.css"
 export default function About() {
   return (
     <>
-        <div className="about-container">
+        <div className="about-container" id="about-section">
             <div className="about-image-container">
                 <div className="about-image"><img src="/src/assets/images/about-me-image.jpg" alt="" /></div>
             </div>

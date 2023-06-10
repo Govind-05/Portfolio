@@ -13,8 +13,8 @@ export default function Intro() {
                     <div className="bit-info">A Bit About Me</div>
                     <div className="intro-about-me">I am Govind Bhardwaj. A passionate Full-Stack Web Developer based in Delhi, India.&nbsp;📍</div>
                     <div className="contact-icons">
-                        <a href="https://www.linkedin.com/in/govind-bhardwaj-117a53213/" target="_blank"><svg className="linkedin-icon" xmlns="http://www.w3.org/2000/svg" xmlns: xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50"><path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56c3.97,0,7.19,2.73,7.19,8.26V39z" /></svg></a>
-                        <a href="https://github.com/Govind-05" target="_blank"><svg className="github-icon" width="50px" height="50px" version="1.1" baseProfile="basic" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns: xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 72" xml: space="preserve">
+                        <a href="https://www.linkedin.com/in/govind-bhardwaj-117a53213/" target="_blank"><svg className="linkedin-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50"><path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56c3.97,0,7.19,2.73,7.19,8.26V39z" /></svg></a>
+                        <a href="https://github.com/Govind-05" target="_blank"><svg className="github-icon" width="50px" height="50px" version="1.1" baseProfile="basic" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 72" xmlSpace="preserve">
                             <path d="M36,12c13.255,0,24,10.745,24,24c0,10.656-6.948,19.685-16.559,22.818c0.003-0.009,0.007-0.022,0.007-0.022
                     	s-1.62-0.759-1.586-2.114c0.038-1.491,0-4.971,0-6.248c0-2.193-1.388-3.747-1.388-3.747s10.884,0.122,10.884-11.491
                     	c0-4.481-2.342-6.812-2.342-6.812s1.23-4.784-0.426-6.812c-1.856-0.2-5.18,1.774-6.6,2.697c0,0-2.25-0.922-5.991-0.922
@@ -26,9 +26,10 @@ export default function Intro() {
                         </svg></a>
                     </div>
                     <div className="redirect-links">
-                        <div className="about-me-redirect" style={{marginLeft:"0"}}>About Me</div>
-                        <div className="projects-redirect">Projects</div>
-                        <div className="contact-redirect">Contact</div>
+                        <a href="#about-section" style={{textDecoration:"none",color:"inherit"}}><div className="about-me-redirect" style={{marginLeft:"0"}}>About Me</div></a>
+                        <a href="#projects-sections" style={{textDecoration:"none",color:"inherit"}}><div className="projects-redirect">Projects</div></a>
+                        <a href="#contact-section" style={{textDecoration:"none",color:"inherit"}}><div className="contact-redirect">Contact</div></a>
+                        
                     </div>
                 </div>
             </div>

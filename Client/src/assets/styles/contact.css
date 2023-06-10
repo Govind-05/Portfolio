@@ -1,0 +1,47 @@
+.contact-container{
+    display: flex;
+    margin: 8rem 0;
+    flex-direction: column;
+    padding-left: 16.5%;
+}
+
+.contact-heading{
+    font-weight: 600;
+    color: #0F4391;
+    margin-bottom: 0.5rem;
+}
+
+.contact-subheading{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contact-links-container{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.contact-links{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    transition: all 0.3s;
+}
+
+.contact-links a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.mail-link:hover{
+    cursor: pointer;
+    fill:  #eea302;
+}
+
+.linkedin-link:hover{
+    cursor: pointer;
+    fill: #0077b5;
+}
+
+
+
