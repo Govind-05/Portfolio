@@ -6,8 +6,8 @@ export default function Navbar() {
             <div className="navbar">
                 <div className="portfolio-title-container">
                     <div className="yellow-circle"></div>
-                    <span className="portfolio-title">Govind</span>
-                    <span>FullStack Developer</span>
+                    <div><span className="portfolio-title">Govind</span></div>
+                    <div><span>FullStack Developer</span></div>                    
                 </div>
                 <div className="navigation-container">
                     <ul className="navigation-container-list">

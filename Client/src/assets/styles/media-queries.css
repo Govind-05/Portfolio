@@ -1,0 +1,480 @@
+@media (max-width:1250px) and (min-width:1094px) {
+    .intro-about-me{
+        width: 81%;
+    }
+
+    .about-image{
+        width: 81%;
+    }
+
+    .about-subheading{
+        width: 81%;
+    }
+
+    .about-details{
+        width: 81%;
+    }
+
+    .skill-icons{
+        font-size: .8rem
+    }
+
+    .skill-icons img{
+        width: 2rem;
+    }
+
+    .project-heading{
+        padding-left: 9.5%;
+    }
+
+    .project-details-container{
+        padding-left: 9.5%;
+    }
+
+    .project-tech-stack-btn{
+        margin-bottom: 0.5rem;
+    }
+
+    .project-image{
+        width: 70%;
+    }
+
+    .contact-container{
+        padding-left: 9.5%;
+    }
+
+    .contact-container{
+        padding-left: 9.5%;
+    }
+}
+
+@media (max-width:1093px) and (min-width:880px){
+    body{
+        font-size: 0.9rem;
+    }
+
+    .portfolio-title-container{
+        width: 17rem;
+    }
+
+    .portfolio-title{
+        font-size: 1.5rem;
+    }
+
+    .navigation-container-list{
+        width: 15rem;
+    }
+
+    .intro-image {
+        width: 22rem;
+        height: 22rem;
+    }
+
+    .welcome-title{
+        font-size: 6rem;
+    }
+
+    .bit-info{
+        font-size: 1.15rem;
+    }
+
+    .intro-about-me{
+        width: 75%;
+    }
+    .redirect-links div {
+        width: 5rem;
+        height: 5rem;
+        font-size: 0.8rem;
+    }
+
+    .about-image{
+        width: 82%;
+    }
+
+    .about-subheading {
+        font-size: 1.1rem;
+        width: 85%;
+    }
+
+    .about-details {
+        width: 85%;
+        font-size: 0.8rem;
+    }
+
+    .skill-icons{
+        font-size: 0.8rem;
+    }
+
+    .skill-icons img{
+        width: 39px;
+    }
+
+    .project-heading{
+        font-size: 2.5rem;
+        padding-left: 8.5%;
+    }
+
+    .project-details-container{
+        padding-left: 8.5%
+    }
+
+    .project-title{
+        font-size: 1.3rem;
+    }
+
+    .project-details{
+        font-size: 0.8rem;
+    }
+
+    .project-image{
+        width: 75%;
+    }
+
+    .contact-container{
+        padding-left: 8.5%;
+    }
+
+    .footer-container{
+        padding-left: 8.5%;
+    }
+}
+
+@media (max-width:880px) and (min-width:720px){
+    .intro-container{
+        height: 65vh;
+    }
+
+    .intro-about-me{
+        width: 95%;
+    }
+
+    .about-container{
+        height: 65vh;
+    }
+
+    .about-image{
+        width: 97%;
+    }
+
+    .about-subheading{
+        width: 97%;
+    }
+
+    .about-details{
+        width: 97%;
+    }
+
+    .tech-stack-container{
+        height: initial;
+    }
+
+    .skill-icons{
+        font-size: 0.8rem;
+    }
+
+    .skill-icons img{
+        width: 36px;
+    }
+
+    .project-heading{
+        padding-left: 5%;
+    }
+
+    .project-details-container{
+        padding-left: 5%;
+    }
+
+    .project-image{
+        width: 90%;
+    }
+
+    .contact-container{
+        padding-left: 5%;
+    }
+
+    .footer-container{
+        padding-left: 5%;
+    }
+    
+}
+
+@media (max-width:720px) and (min-width:350px){
+    .portfolio-title-container{
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .portfolio-title-container div{
+        padding-left: 0.5rem;
+    }
+
+    .navigation-container{
+        display: none;
+    }
+
+    .intro-container{
+        flex-direction: column-reverse;
+        height: initial;
+    }
+
+    .intro-image-container {
+        width: 100%;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .intro-image{
+        width: 90%;
+        height: initial;
+    }
+
+    .intro-info-container {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .intro-about-me{
+        width: 95%;
+    }
+
+    .about-container{
+        height: initial;
+    }
+
+    .about-image-container {
+        display: none;
+    }
+
+    .about-info{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 1rem;
+        justify-content: flex-start;
+    }
+
+    .about-subheading{
+        width: 96%;
+    }
+
+    .about-details{
+        width: 96%;
+    }
+
+    .tech-stack-container{
+        flex-direction: column;
+        height: initial;
+    }
+
+    .skill-icons-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-icons{
+        margin-bottom: 0.5rem;
+    }
+
+    .react-container{
+        margin-left: 0;
+    }
+
+
+    .contact-links-container{
+        flex-direction: column;
+    }
+
+    .project-heading{
+        padding-left: 1rem;
+    }
+
+    .project-container{
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .project-details-container{
+        padding-left: 1rem;
+        width: 97%;
+    }
+
+    .project-image-container{
+        width: 96%;
+        max-width: 25rem;
+        padding-left: 1rem;
+    }
+
+    .project-image-container a{
+        height: initial;
+    }
+
+    .project-image{
+        width: 100%;
+    }
+
+    .contact-container{
+        margin: 3rem 0;
+        padding-left: 1rem;
+    }
+    
+    .contact-links-container{
+        margin-top: 1rem;
+    }
+
+    .footer-container{
+        padding-left: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .footer-icons-container{
+        margin-right: initial;
+    }
+}
+
+@media (max-width:350px){
+    .portfolio-title-container{
+        width: 100%;
+        font-size: 0.7rem;
+        justify-content: flex-start;
+        margin-left: 1rem;
+    }
+    .portfolio-title{
+        font-size: 1rem;
+    }
+
+    .portfolio-title-container div{
+        padding-left: 0.5rem;
+    }
+
+    .navigation-container{
+        display: none;
+    }
+
+    .intro-container{
+        flex-direction: column-reverse;
+        height: initial;
+    }
+
+    .intro-image-container {
+        width: 100%;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .intro-image{
+        width: 90%;
+        height: initial;
+    }
+
+    .intro-info-container {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .welcome-title{
+        font-size: 5rem;
+    }
+
+    .intro-about-me{
+        width: 95%;
+    }
+
+    .redirect-links div{
+        width: 4rem;
+        height: 4rem;
+        font-size: 0.7rem;
+
+    }
+
+    .about-container{
+        height: initial;
+    }
+
+    .about-image-container {
+        display: none;
+    }
+
+    .about-info{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 1rem;
+        justify-content: flex-start;
+    }
+
+    .about-subheading{
+        width: 96%;
+    }
+
+    .about-details{
+        width: 96%;
+    }
+
+    .tech-stack-container{
+        flex-direction: column;
+        height: initial;
+    }
+
+    .skill-icons-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-icons{
+        margin-bottom: 0.5rem;
+    }
+
+    .react-container{
+        margin-left: 0;
+    }
+
+
+    .contact-links-container{
+        flex-direction: column;
+    }
+
+    .project-heading{
+        padding-left: 1rem;
+    }
+
+    .project-container{
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .project-details-container{
+        padding-left: 1rem;
+        width: 97%;
+    }
+
+    .project-image-container{
+        width: 96%;
+        max-width: 25rem;
+        padding-left: 1rem;
+    }
+
+    .project-image-container a{
+        height: initial;
+    }
+
+    .project-image{
+        width: 100%;
+    }
+
+    .contact-container{
+        margin: 3rem 0;
+        padding-left: 1rem;
+        font-size:0.7rem;
+    }
+    
+    .contact-links-container{
+        margin-top: 1rem;
+    }
+
+    .footer-container{
+        padding-left: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .footer-icons-container{
+        margin-right: initial;
+    }
+}

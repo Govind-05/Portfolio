@@ -49,6 +49,7 @@
     font-weight: 600;
     margin-right: 0.5rem;
     transition: all 0.3s;
+    margin-bottom: 0.5rem;
 }
 
 .project-tech-stack-btn:hover{
@@ -86,7 +87,7 @@
 .project-image{
     height: 100%;
     max-height: 13rem;
-    width: 50%;
+    width: 60%;
     overflow: hidden;
     border-radius: 15px;
     transition: all 0.3s;

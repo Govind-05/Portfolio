@@ -49,11 +49,11 @@
 }
 
 .about-details{
-    width: 70%;
+    width: 75%;
 }
 
 .tech-stack-container{
-    height: 3.5rem;
+    /* height: 3.5rem; */
     display: flex;
     margin-top: 1rem;
 }
@@ -61,7 +61,12 @@
 .skill-title{
     font-weight: 600;
     color: #0F4391;
-    margin: auto 0;
+    margin: 0.8rem 0;
+}
+
+.skill-icons-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-icons{
@@ -83,7 +88,7 @@
 }
 
 .react-container{
-    margin-left: 0.5rem;
+    /* margin-left: 0.5rem; */
 }
 
 .react-icon{
