@@ -1,4 +1,5 @@
 import "../assets/styles/intro.css"
+import illustrationImage from "../assets/images/illustration.jpg"
 
 
 export default function Intro() {
@@ -6,7 +7,7 @@ export default function Intro() {
         <>
             <div className="intro-container">
                 <div className="intro-image-container">
-                    <div className="intro-image"><img src="/src/assets/images/illustration.jpg" alt="" /></div>
+                    <div className="intro-image"><img src={illustrationImage} alt="" /></div>
                 </div>
                 <div className="intro-info-container">
                     <div className="welcome-title">Hello</div>

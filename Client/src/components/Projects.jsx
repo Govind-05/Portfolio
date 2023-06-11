@@ -1,6 +1,8 @@
 import "../assets/styles/project.css"
+import bolnaaImage from "../assets/images/bolnaa-homepage.png"
+import millioImage from "../assets/images/millio-homepage.png"
+import filmlandImage from "../assets/images/filmland-homepage.png"
 
-import React from 'react'
 
 export default function Projects() {
   return (
@@ -25,7 +27,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project-image-container">
-          <a href="https://bol-naa-chat-application.vercel.app" target="_blank"><div className="project-image"><img src="/src/assets/images/bolnaa-homepage.png" alt="" /></div></a>
+          <a href="https://bol-naa-chat-application.vercel.app" target="_blank"><div className="project-image"><img src={bolnaaImage} alt="" /></div></a>
         </div>
       </div>
 
@@ -49,7 +51,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project-image-container">
-          <a href="https://millio-a-video-chat-application.vercel.app/" target="_blank"><div className="project-image"><img src="/src/assets/images/millio-homepage.png" alt="" /></div></a>
+          <a href="https://millio-a-video-chat-application.vercel.app/" target="_blank"><div className="project-image"><img src={millioImage} alt="" /></div></a>
         </div>
       </div>
 
@@ -73,7 +75,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project-image-container">
-          <a href="https://filmland.onrender.com" target="_blank"><div className="project-image"><img src="/src/assets/images/filmland-homepage.png" alt="" /></div></a>
+          <a href="https://filmland.onrender.com" target="_blank"><div className="project-image"><img src={filmlandImage} alt="" /></div></a>
         </div>
       </div>
       <div className="horizontal-line"></div>

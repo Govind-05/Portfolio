@@ -1,11 +1,18 @@
 import "../assets/styles/about.css"
+import aboutMeImage from "../assets/images/about-me-image.jpg"
+import reactIconImage from "../assets/images/react-icon.png"
+import nodeIconImage from "../assets/images/node-icon.png"
+import mongodbIconImage from "../assets/images/mongodb-icon.png"
+import htmlIconImage from "../assets/images/html-icon.png"
+import cssIconImage from "../assets/images/css-icon.png"
+import javascriptIconImage from "../assets/images/javascript-icon.png"
 
 export default function About() {
     return (
         <>
             <div className="about-container" id="about-section">
                 <div className="about-image-container">
-                    <div className="about-image"><img src="/src/assets/images/about-me-image.jpg" alt="" /></div>
+                    <div className="about-image"><img src={aboutMeImage} alt="" /></div>
                 </div>
                 <div className="about-info">
                     <div className="about-title">ABOUT ME</div>
@@ -16,17 +23,17 @@ export default function About() {
 
                         <div className="skill-icons-container">
 
-                            <div className="skill-icons react-container"><img className="react-icon" src="/src/assets/images/react-icon.png" alt="" /><span>React</span></div>
+                            <div className="skill-icons react-container"><img className="react-icon" src={reactIconImage} alt="" /><span>React</span></div>
 
-                            <div className="skill-icons"><img src="/src/assets/images/node-icon.png" alt="" /><span>Node.js</span></div>
+                            <div className="skill-icons"><img src={nodeIconImage} alt="" /><span>Node.js</span></div>
 
-                            <div className="skill-icons"><img src="/src/assets/images/mongodb-icon.png" alt="" /><span>MongoDB</span></div>
+                            <div className="skill-icons"><img src={mongodbIconImage} alt="" /><span>MongoDB</span></div>
 
-                            <div className="skill-icons"><img src="/src/assets/images/html-icon.png" alt="" /><span>HTML</span></div>
+                            <div className="skill-icons"><img src={htmlIconImage} alt="" /><span>HTML</span></div>
 
-                            <div className="skill-icons"><img src="/src/assets/images/css-icon.png" alt="" /><span>CSS</span></div>
+                            <div className="skill-icons"><img src={cssIconImage} alt="" /><span>CSS</span></div>
 
-                            <div className="skill-icons"><img src="/src/assets/images/javascript-icon.png" alt="" /><span>JS</span></div>
+                            <div className="skill-icons"><img src={javascriptIconImage} alt="" /><span>JS</span></div>
 
                         </div>
                     </div>
