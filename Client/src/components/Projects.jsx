@@ -22,12 +22,12 @@ export default function Projects() {
             <button className="project-tech-stack-btn">CSS</button>
           </div>
           <div className="project-links-container">
-            <button className="project-tech-stack-btn project-links-btn-live"><a href="https://bol-naa-chat-application.vercel.app" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>View Project</a></button>
+            <button className="project-tech-stack-btn project-links-btn-live"><a href="https://bolnaa.govindtech.site" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>View Project</a></button>
             <button className="project-tech-stack-btn project-links-btn-git"><a href="https://github.com/Govind-05/BolNAA-Chat-Application" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>Github</a></button>
           </div>
         </div>
         <div className="project-image-container">
-          <a href="https://bol-naa-chat-application.vercel.app" target="_blank"><div className="project-image"><img src={bolnaaImage} alt="" /></div></a>
+          <a href="https://bolnaa.govindtech.site" target="_blank"><div className="project-image"><img src={bolnaaImage} alt="" /></div></a>
         </div>
       </div>
 
@@ -70,12 +70,12 @@ export default function Projects() {
             <button className="project-tech-stack-btn">CSS</button>
           </div>
           <div className="project-links-container">
-            <button className="project-tech-stack-btn project-links-btn-live"><a href="https://film-land-production.up.railway.app" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>View Project</a></button>
+            <button className="project-tech-stack-btn project-links-btn-live"><a href="https://filmland.onrender.com" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>View Project</a></button>
             <button className="project-tech-stack-btn project-links-btn-git"><a href="https://github.com/Govind-05/Film-Land" target="_blank" style={{ textDecoration: "none", color: "inherit" }}>Github</a></button>
           </div>
         </div>
         <div className="project-image-container">
-          <a href="https://film-land-production.up.railway.app" target="_blank"><div className="project-image"><img src={filmlandImage} alt="" /></div></a>
+          <a href="https://filmland.onrender.com" target="_blank"><div className="project-image"><img src={filmlandImage} alt="" /></div></a>
         </div>
       </div>
       <div className="horizontal-line"></div>
