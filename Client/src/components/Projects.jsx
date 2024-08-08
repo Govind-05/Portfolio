@@ -1,5 +1,5 @@
 import "../assets/styles/project.css"
-import bolnaaImage from "../assets/images/bolnaa-homepage.png"
+import bolnaaImage from "../assets/images/bolnaa.png"
 import millioImage from "../assets/images/millio-homepage.png"
 import filmlandImage from "../assets/images/filmland-homepage.png"
 
